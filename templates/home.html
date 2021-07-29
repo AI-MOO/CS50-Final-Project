@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block title %}
+	Home
+{% endblock %}
+
+{% block s %}
+    <button data-aos="fade-down" data-aos-delay="500" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="btn btn-outline-sss btn-lg navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon" style="color:#fff;font-size:20px;">&#9776;</span>
+    </button>
+    <div data-aos="fade-down" data-aos-delay="500" class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto mt-2">
+            <li class="nav-item"><a class="nav-link current" href="/home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="/books">Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+        </ul>
+    </div>
+{% endblock %}
+
+
+
+{% block main %}
+        <div data-aos="fade-down" data-aos-delay="400">
+		    <Home class="background"><p class="font_size60">Welcome to my webpage!</p></Home>
+		</div>
+
+        <div data-aos="fade-up" data-aos-delay="450">
+		    <img src="/static/2.png" alt="AIoT Planet">
+		</div>
+
+		<div data-aos="flip-down" data-aos-delay="400">
+		    <Home><p class="font_size45">AIoT Planet</p><br><br></Home>
+		    <Home><p class="font_size30">Here you find my perspective of topics relevant to AI, IoT, and Data Science.</p><br><br></Home>
+		</div>
+
+        <div data-aos="zoom-in" data-aos-delay="100">
+			<a href="/about">
+				<button id="TellMore" class="btn btn-outline-secondary btn-lg">Tell Me More!</button>
+			</a>
+		</div><br><br><br><br>
+{% endblock %}
+
+
+
+
+{% block footer %}
+        <p>Developed By Mohamd Osman, Copyright &copy; 2021 All Rights Reserved.</p>
+
+
+{% endblock %}

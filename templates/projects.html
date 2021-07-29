@@ -1,0 +1,109 @@
+{% extends "layout.html" %}
+{% block title %}
+	Projects
+{% endblock %}
+
+{% block s %}
+    <button data-aos="fade-down" data-aos-delay="500" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="btn btn-outline-sss btn-lg navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon" style="color:#fff;font-size:20px;">&#9776;</span>
+    </button>
+    <div data-aos="fade-down" data-aos-delay="500" class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto mt-2">
+            <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+            <li class="nav-item"><a class="nav-link current" href="/projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="/books">Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+        </ul>
+    </div>
+{% endblock %}
+
+{% block main %}
+
+
+<ul class="cards_proj" data-aos="fade-down" data-aos-delay="500">
+
+    <li class="cards_item_proj">
+        <div class="card_proj" data-aos="fade-down" data-aos-delay="500">
+            <div class="card_image_proj"><img src="/static/projects_img/ML_algorthims.png" alt="" width="400" height="180"></div>
+            <div class="card_title_proj">Machine Learning Nanodegree</div>
+            <div><p></p></div>
+            <div class="card_text_proj">This repository includes a hands-on most substantial supervised and unsupervised ML algorithms.</div>
+            <div><br><br></div>
+            <div><a href="https://github.com/AI-MOO/MachineLearningNanodegree" target="_blank" rel="noopener noreferrer"><img class="icon_gw" src="static/icons/github.png"  width="40" height="37"></a></div>
+
+        </div>
+    </li>
+
+
+    <li class="cards_item_proj">
+        <div class="card_proj" data-aos="fade-down" data-aos-delay="600">
+            <div class="card_image_proj"><img src="/static/projects_img/SDP.png" alt="" width="400" height="180"></div>
+            <div class="card_title_proj">System of Object Sortation</div>
+            <div><p></p></div>
+            <div class="card_text_proj">Powered by Computer vision & IoT technologies is a general dynamic entity used to recognize and sort different types of objects into different categories in assembly or production lines </div>
+			 <div></div>
+            <div><a href="https://github.com/AI-MOO/Deep_Sort_Tracking_Counting_YOLOv4/tree/main/yolov4-deepsort-master" target="_blank" rel="noopener noreferrer"><img class="icon_gw" src="static/icons/github.png"  width="40" height="37"></a></div>
+
+        </div>
+    </li>
+	
+    <li class="cards_item_proj">
+        <div class="card_proj" data-aos="fade-down" data-aos-delay="800">
+            <div class="card_image_proj"><img src="/static/projects_img/DataAnalytic.png" alt="" width="400" height="180"></div>
+            <div class="card_title_proj">Data Analytic of Google's Play Store</div>
+            <div><p></p></div>
+            <div class="card_text_proj">Extracting insights of top 5 Paid apps categories according to average installations number per app for future investments purposes</div>
+             <div><br></div>
+            <div><a href="https://github.com/AI-MOO/IoT_LAB/tree/master/week%205/06-07-2020%20Tue%23Task%2010" target="_blank" rel="noopener noreferrer"><img class="icon_gw" src="static/icons/github.png"  width="40" height="37"></a></div>
+
+        </div>
+    </li>
+	
+	
+	<li class="cards_item_proj">
+    <div class="card_proj" data-aos="fade-down" data-aos-delay="1200">
+        <div class="card_image_proj"><img src="/static/projects_img/Bottle Sortation.png" alt="" width="400" height="180"></div>
+        <div class="card_title_proj">Computer Vision: Bottles Classification</div>
+        <div><p></p></div>
+        <div class="card_text_proj">Deep Learning Project: Bottles Classification System used to distinguish between empty and full bottles Using YOLOv4 model and Tesnorflow framework</div>
+        <div><br></div>
+        <div><a href="https://github.com/AI-MOO/Bottles_Sortation_CV" target="_blank" rel="noopener noreferrer"><img class="icon_gw" src="static/icons/github.png"  width="40" height="37"></a></div>
+
+    </div>
+    </li>
+
+    <li class="cards_item_proj">
+        <div class="card_proj" data-aos="fade-down" data-aos-delay="1000">
+            <div class="card_image_proj"><img src="/static/projects_img/Irregation System.png" alt="" width="400" height="180"></div>
+            <div class="card_title_proj">Steam Sensor data monitoring Using node-red dashboard</div>
+            <div><p></p></div>
+            <div class="card_text_proj">This project is considered a simulation of weather station for irrigation system using rain sensor, Node MCU and node-red dashboard</div>
+            <div><a href="https://github.com/AI-MOO/IoT_LAB/tree/master/week%204/30-06-2020%20Tue%23Task/Task8.2%20node-red%20dashboard%20installation" target="_blank" rel="noopener noreferrer"><img class="icon_gw" src="static/icons/github.png"  width="40" height="37"></a></div>
+        </div>
+    </li>
+
+    <li class="cards_item_proj">
+    <div class="card_proj" data-aos="fade-down" data-aos-delay="1200">
+        <div class="card_image_proj"><img src="/static/projects_img/Py_Projects.png" alt="" width="400" height="180"></div>
+        <div class="card_title_proj">Python Scripts / Programs</div>
+        <div><p></p></div>
+        <div class="card_text_proj">This repository includes Python projects, APIs, porgrams, scripts.</div>
+        <div><br><br></div>
+        <div><a href="https://github.com/AI-MOO/PythonProjects" target="_blank" rel="noopener noreferrer"><img class="icon_gw" src="static/icons/github.png"  width="40" height="37"></a></div>
+
+    </div>
+    </li>
+
+</ul>
+
+
+
+{% endblock %}
+
+
+
+
+{% block footer %}
+        <p>Developed By Mohamd Osman, Copyright &copy; 2021 All Rights Reserved.</p>
+{% endblock %}
