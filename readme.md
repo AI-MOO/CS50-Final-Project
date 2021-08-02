@@ -41,8 +41,6 @@
 ------------------------------------------------------------------------------------------------------------------------
 #### Deployment:
 
-Heroku: https://dashboard.heroku.com/
-
 <a><img class="icons_curve" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=Heroku&logoColor=white"/></a>
 
 
